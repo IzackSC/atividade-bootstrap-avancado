@@ -1,0 +1,37 @@
+header {
+    background-color: #b4b6c5;
+}
+
+.carousel-inner {
+    height: 500px;
+    margin-bottom: 32px;
+}
+.carousel-item {
+    width: 100%;
+    height: 100%;
+}
+
+.noticia {
+    padding: 16px;
+    border-bottom: 1px solid black;
+    margin-bottom: 24px;
+}
+
+.card-img-overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+@media screen and (max-width: 767px) {
+    .carousel-inner {
+        height: 40vh;
+    }
+
+    .row {
+        width: 100%;
+        display: block;
+    }
+
+    .card {
+        width: 100%;
+    }
+}
